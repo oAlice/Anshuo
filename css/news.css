@@ -1,0 +1,282 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.w-news-content {
+    width: 100%;
+    height: auto;
+}
+
+.w-news-banner {
+    width: 100%;
+    height: 270px;
+    min-width: 1260px;
+    position: relative;
+    overflow: hidden;
+}
+
+.w-news-banner img {
+    width: 100%;
+    height: 100%;
+}
+
+.w-news-center {
+    width: 1140px;
+    height: 2500px;
+    margin: 0 auto;
+}
+
+.w-news-top {
+    font-size: 13px;
+    color: #6b6b6b;
+    border-bottom: 1px solid #d4d4d4;
+    box-sizing: border-box;
+    margin-top: 20px;
+    line-height: 31px;
+}
+
+.w-news-top > a {
+    color: #6b6b6b;
+}
+
+.w-news {
+    margin-top: 48px;
+    display: inline-block;
+    border-bottom: 4px solid #4682da;
+    padding-bottom: 10px;
+    position: relative;
+}
+
+.w-news i {
+    color: #323232;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 28px;
+}
+
+.w-news span {
+    color: #7e7e7e;
+    font-size: 14px;
+    font-family: "Arial";
+    text-transform: uppercase;
+    line-height: 16px;
+}
+
+.w-news:before {
+    content: "";
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    height: 4px;
+    width: 115.5px;
+    background: #003787;
+}
+
+.w-news-detail {
+    color: #323232;
+    font-size: 13px;
+    line-height: 24px;
+    width: 1140px;
+    height: auto;
+    margin: 40px auto;
+
+}
+
+.w-news-ul {
+    width: 100%;
+    height: auto;
+}
+
+.w-news-ul li {
+    width: 100%;
+    float: left;
+    border-top: 1px solid #E5E5E5;
+    border-bottom: 1px solid #e5e5e5;
+    box-sizing: border-box;
+    padding: 38px 0;
+}
+
+.w-news-ul li div {
+    width: 733px;
+}
+
+.w-news-ul li div span {
+    display: block;
+    color: #4c4c4c;
+    font-size: 13px;
+    font-family: "Arial";
+    height: 22px;
+    line-height: 22px;
+    border-left: 3px solid #4682da;
+    padding-left: 18px;
+}
+
+.w-news-ul li div a.bt {
+    display: block;
+    color: #242424;
+    font-size: 15px;
+    line-height: 24px;
+    height: 24px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin-top: 8px;
+    padding-left: 18px;
+}
+
+.w-news-ul li:hover .all a {
+    color: #4682DA;
+}
+
+.w-news-ul li:hover .all p {
+    color: #4682DA;
+}
+
+.w-news-ul li:hover .all span {
+    color: #4682DA;
+}
+
+.w-news-ul li div p {
+    color: #4f4f4f;
+    font-size: 13px;
+    line-height: 20px;
+    height: 40px;
+    overflow: hidden;
+    margin-top: 7px;
+    padding-left: 18px;
+}
+
+.w-news-ul li div a.ck {
+    display: block;
+    width: 84px;
+    height: 24px;
+    border: 1px solid #898989;
+    text-align: center;
+    line-height: 24px;
+    margin-top: 15px;
+    color: #313131;
+    font-size: 12px;
+    margin-left: 18px;
+}
+
+.w-news-ul li > a {
+    position: relative;
+    display: block;
+    width: 239px;
+    height: 160px;
+}
+
+.w-news-ul li > a > img {
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+/*news 首页end*/
+/*共有*/
+.w-news-detail h1 {
+    text-align: center;
+    line-height: 30px;
+    display: block;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.w-news-detail p.data {
+    text-align: center;
+    font-size: 12px;
+    color: #7e7e7e;
+    line-height: 24px;
+    margin-top: 10px;
+}
+
+/*winner start*/
+.w-news-winner {
+    width: 1140px;
+    height: 583px;
+}
+
+.winner-winner-top {
+    color: #333333;
+    font-family: 'Microsoft YaHei';
+    font-size: 13.5px;
+    white-space: normal;
+    background-color: #FFFFFF;
+}
+
+.span {
+    display: inline-block;
+    width: 25px;
+    height: 18px;
+}
+
+.winner-winner-img img {
+    width: 642px;
+    height: 480px;
+}
+
+/*winner end*/
+/*bank start*/
+.w-bank-center {
+    width: 1140px;
+    padding-bottom: 50px;
+    margin: 0 auto;
+
+}
+/*bank end*/
+/*banking start*/
+.w-banking-center{
+    width: 1140px;
+    padding-bottom: 50px;
+    margin: 0 auto;
+}
+.banking-top {
+    color: #6666ff;
+    font-size: x-small;
+}
+
+.w-banking-span {
+    color: #0066cc;
+    font-weight: bold;
+}
+
+.w-banking-blue {
+    color: #6699CC;
+}
+/*banking end*/
+/*invest start*/
+.w-invest-center{
+    width: 1140px;
+    padding-bottom: 50px;
+    margin: 0 auto;
+}
+/*invest end*/
+
+/*serve start*/
+.w-serve-center{
+    width: 1140px;
+    padding-bottom: 50px;
+    margin: 0 auto;
+}
+.serve-img {
+    display: block;
+    margin: 20px auto;
+}
+
+/*serve end*/
