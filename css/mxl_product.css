@@ -1,0 +1,284 @@
+/*产品banner*/
+.mxl_cpbanner{
+	width: 100%;
+	overflow: hidden;
+}
+.mxl_cpbanner>div{
+	width: 1600px;
+	margin: 0 auto;
+	min-width: 1260px;
+}
+.mxl_cpmain{
+	width: 1140px;
+	margin: 0 auto;
+	margin-top: 33px;
+	margin-bottom: 100px;
+}
+
+/*产品左部样式*/
+.mxl_leftcp{
+	width: 218px;
+	float: left;
+	display: inline;
+}
+.mxl_cptop{
+	padding-left: 68px;
+	padding-top: 15px;
+	background: url(../images/mxl_main_left.jpg);
+}
+.mxl_cptop>p{
+	color: #3b3b3b;
+	font-size: 24px;
+	line-height: 26px;
+	height: 26px;
+}
+.mxl_cptop>span{
+	color: #9f9f9f;
+	font-size: 12px;
+	line-height: 14px;
+	height: 14px;
+	font-family: "Arial";
+	margin-top: 3px;
+}
+.mxl_leftcp_list{
+	padding-top: 40px;
+	background: #f9f9f9;
+}
+.mxl_leftcp_list>li{
+	padding-bottom: 40px;
+}
+.mxl_leftcp_list>li>a{
+	display: block;
+	text-align: center;
+	line-height: 30px;
+	font-size: 18px;
+	height: 30px;
+	color: #555;
+	transition: 0.7s ease;
+}
+.mxl_leftcp_list>li.mxl_cur>a{
+	color: #003787;
+	border-right: 4px solid #003787;
+	font-weight: bold;
+}
+.mxl_leftcp_list>li>a:hover{
+	color: #003787;
+	border-right: 4px solid #003787;
+	font-weight: bold;
+}
+.mxl_leftcp>div:last-of-type{
+	width: 218px;
+	height: 259px;
+	background: url(../images/mxl_main_left2.jpg) no-repeat;
+}
+
+/*产品右部样式*/
+.mxl_rightcp{
+	width: 865px;
+	float: right;
+	display: inline;
+}
+.mxl_rightcp>div{
+	display: none;
+}
+.mxl_rightcp>div:first-of-type{
+	display: block;
+}
+.mxl_xdlc>p:first-of-type{
+	margin-top: 20px;
+	border-bottom: 1px solid #d4d4d4;
+	color: #6b6b6b;
+	font-size: 13px;
+	line-height: 24px;
+}
+.mxl_xdlc>p.mxl_bt{
+	margin-top: 48px;
+	border-bottom: 4px solid #4682da;
+	padding-bottom: 10px;
+	display: inline-block;
+	position: relative;
+}
+.mxl_xdlc>p.mxl_bt:before{
+	content: '';
+	position: absolute;
+	bottom: -4px;
+	left: 0;
+	height: 4px;
+	width: 115.5px;
+	background: #003787;
+}
+.mxl_xdlc>p.mxl_bt b{
+	color: #323232;
+	font-size: 24px;
+	line-height: 28px;
+}
+.mxl_xdlc>p.mxl_bt span{
+	color: #7E7E7E;
+	font-size: 14px;
+	line-height: 16px;
+}
+.mxl_xdlc>ul{
+	margin-top: 40px;
+}
+.mxl_xdlc>ul>li{
+	border-bottom: 1px solid #cfcfcf;
+	padding-bottom: 35px;
+	margin-bottom: 35px;
+	float: left;
+	width: 100%;
+}
+.mxl_xdlc>ul>li>a{
+	position: relative;
+	display: block;
+	width: 216px;
+	height: 169px;
+	float: left;
+}
+.mxl_xdlc>ul>li>a>img{
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+}
+.mxl_imgright{
+	width: 618px;
+	float: right;
+}
+.mxl_imgright>a:first-of-type{
+	color: #272727;
+	font-size: 20px;
+	line-height: 24px;
+	white-space: nowrap;
+	display: inline-block;
+	margin-top: 10px;
+}
+.mxl_imgright>p{
+	color: #3b3b3b;
+	font-size: 13px;
+	line-height: 24px;
+	height: 72px;
+	overflow: hidden;
+	margin-top: 10px;
+}
+.mxl_imgright>a:last-of-type{
+	display: block;
+	width: 106px;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+	border: 1px solid #8bbaff;
+	color: #3b3b3b;
+	font-size: 13px;
+	margin-top: 10px;
+}
+.mxl_imgright>a:last-of-type:hover{
+	text-decoration: underline;
+}
+.mxl_fy{
+	text-align: center;
+}
+.mxl_fy>a{
+	display: inline-block;
+	font-size: 12px;
+	line-height: 24px;
+	height: 24px;
+	padding: 0 6px;
+	margin: 0 3px;
+	color: #3b3b3b;
+	transition: 0.7s ease;
+	border: 1px solid #CFCFCF;
+}
+.mxl_fy>a.mxl_cpb{
+	color: #8bbaff;
+	border: 1px solid #8bbaff;
+}
+.mxl_fy>a:hover{
+	color: #8bbaff;
+	border: 1px solid #8bbaff;
+}
+.mxl_fy>a:first-of-type{
+	display: none;
+}
+
+/*more 信贷流程查看更多*/
+.mxl_xdlc_more>div{
+	display: none;
+}
+.mxl_xdlcfm_con{
+	margin-top: 40px;
+	color: #323232;
+	font-size: 13px;
+	line-height: 24px;
+}
+.mxl_xdlcfm_con>h2{
+	font-size: 24px;
+	line-height: 26px;
+	padding-top: 15px;
+	color: #101010;
+}
+.mxl_xdlcfm_con>p:first-of-type{
+	text-indent: 30px;
+	margin-top: 48px;
+}
+.mxl_xdlcfm_con>img{
+	margin-top: 50px;
+}
+.mxl_cpgn>h2{
+	margin-bottom: 45px;
+	margin-top: 75px;
+	font-size: 24px;
+	line-height: 26px;
+}
+.mxl_cpgn>.proshow_tab{
+	border-bottom: 1px solid #c1c1c1;
+	text-align: center;
+}
+.mxl_cpgn>.proshow_tab span{
+	display: inline-block;
+	margin-right: 1px;
+	width: 256px;
+	height: 41px;
+	line-height: 41px;
+	color: #fff;
+	background: #8bbaff;
+	font-size: 16px;
+	cursor: pointer;
+}
+.mxl_cpgn>.proshow_tab span.mxl_bck{
+	background: #e7370e;
+}
+.proshow_box{
+	padding-top: 45px;
+	padding-bottom: 200px;
+	font-size: 13px;
+}
+.proshow_box>div{
+	display: none;
+}
+.proshow_box>div:first-of-type{
+	display: block;
+}
+.proshow_list_one>p:first-of-type{
+	color: #010101;
+	font-size: 18px;
+	margin-bottom: 30px;
+}
+.proshow_list_one>img{
+	margin-top: 75px;
+	margin-bottom: 65px;
+}
+.proshow_list_one>div{
+	margin-top: 30px;
+}
+.proshow_list_one>div>p:first-of-type{
+	font-style: italic;
+}
+.proshow_list_one>div>p:last-of-type{
+	line-height: 24px;
+	text-indent: 16px;
+}
+.proshow_list_three{
+	margin-top: 30px;
+}

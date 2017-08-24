@@ -1,0 +1,41 @@
+.mxl_foot{
+	padding: 30px 0;
+	border-top: 1px solid #d7d7d7;
+	text-align: center;
+	min-width: 1260px;
+	overflow: hidden;
+}
+.mxl_footcon{
+	width: 1260px;
+	margin: 0 auto;
+}
+.mxl_footcon a{
+	color: #4a4a4a;
+	font-size: 13px;
+	line-height: 18px;
+	margin-left: 22px;
+	transition: 0.7s ease;
+}
+.mxl_footcon a:hover{
+	color: #ea4c25;
+}
+.mxl_footcon a:first-child{
+	margin-left: 0;
+}
+.mxl_copyright{
+	padding: 30px 0;
+	background: #262626;
+	min-width: 1260px;
+}
+.mxl_copyright a{
+	color: #888;
+	margin-right: 5px;
+}
+.mxl_copycon{
+	width: 1260px;
+	margin: 0 auto;
+	text-align: center;
+	color:#aaa;
+	font-size: 12px;
+}
+

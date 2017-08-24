@@ -169,6 +169,7 @@ html,body{
     -webkit-transition: All 0.7s ease;
     -moz-transition: All 0.7s ease;
     -o-transition: All 0.7s ease;
+    overflow: hidden;
 }
 .w-solutions-show:hover{
     border-right: 1px solid transparent;
