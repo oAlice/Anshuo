@@ -9,13 +9,10 @@ html,body{
 .right{
     float: right;
 }
-
 .w-products-content{
     width: 100%;
-    margin: 0 auto;
 }
-
-.w-project-banner{
+.w-projct-banner{
     width: 100%;
     height: 270px;
     min-width: 1260px;
@@ -24,12 +21,8 @@ html,body{
 
 }
 .w-project-banner img{
-    width: 1600px;
-    height: 270px;
-    position: absolute;
-    left: 50%;
-    margin-left: -800px;
-    z-index: 5;
+    width: 100%;
+    height: 100%;
 }
 .w-products{
     width: 1140px;

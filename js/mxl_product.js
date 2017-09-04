@@ -1,11 +1,8 @@
 window.onload=function(){
 	//进入页面获取location,根据参数进行选择性隐藏
 	var adress=location.href;
-	console.log(adress)
 	var num=adress.substring(adress.length-1);
-	console.log(num)
 	var numm=Number(num)
-	console.log(numm)
 	
 	var rightDiv=document.querySelectorAll(".mxl_rightcp>div.mxl_xdlc");
 	var allDiv=document.querySelectorAll(".mxl_rightcp>div");
@@ -22,8 +19,6 @@ window.onload=function(){
 		}
 	}
 	
-	
-	console.log(allDiv.length)
 	for(var i=0;i<leftA.length;i++){ 
 		leftA[i].index=i;
 		leftA[i].onclick=function(){
@@ -89,19 +84,122 @@ window.onload=function(){
 	
 	//查看更多点击
 	var mxl_xdlc=document.querySelectorAll(".first .more");
-	var more=document.getElementsByClassName('mxl_xdlc_more')[0];
-	var mxl_xdlc_more=document.querySelectorAll(".mxl_xdlc_more>div");
+	var more=document.getElementsByClassName('mxl_xdlc_more');
 	var first=document.getElementsByClassName('first')[0];
 	for(var i=0;i<mxl_xdlc.length;i++){
 		mxl_xdlc[i].index=i;
 		mxl_xdlc[i].onclick=function(){
-			alert(1)
-			first.style.display='none'
-			more.style.display='block'
-			for(var j=0;j<mxl_xdlc_more.length;j++){
-				mxl_xdlc_more[j].style.display='none' 
+			var xxk=more[this.index].querySelectorAll(".proshow_box>div");
+			for(var j=0;j<xxk.length;j++){
+				xxk[j].style.display='none'
 			}
-			mxl_xdlc_more[this.index].style.display='block'
+			xxk[0].style.display='block';
+			first.style.display='none'			
+			more[this.index].style.display='block'
+		}
+	}
+	
+	
+	//second
+	var mxl_jzgl=document.querySelectorAll(".second .more");
+	var jzgl_more=document.getElementsByClassName('mxl_jzgl_more');
+	var second=document.getElementsByClassName('second')[0];
+	for(var i=0;i<mxl_jzgl.length;i++){
+		mxl_jzgl[i].index=i;
+		mxl_jzgl[i].onclick=function(){
+			var xxk=jzgl_more[this.index].querySelectorAll(".proshow_box>div");
+			for(var j=0;j<xxk.length;j++){
+				xxk[j].style.display='none'
+			}
+			xxk[0].style.display='block'
+			second.style.display='none';
+			jzgl_more[this.index].style.display='block';
+		}
+	}
+	
+	//third
+	var mxl_fxlh=document.querySelectorAll(".third .more");
+	var fxlh_more=document.getElementsByClassName('mxl_fxlh_more');
+	var third=document.getElementsByClassName('third')[0];
+	for(var i=0;i<mxl_fxlh.length;i++){
+		mxl_fxlh[i].index=i;
+		mxl_fxlh[i].onclick=function(){
+			var xxk=fxlh_more[this.index].querySelectorAll(".proshow_box>div");
+			for(var j=0;j<xxk.length;j++){
+				xxk[j].style.display='none'
+			}
+			xxk[0].style.display='block';
+			third.style.display='none';
+			fxlh_more[this.index].style.display='block';
+		}
+	}
+	
+	//four
+	var mxl_ywcl=document.querySelectorAll(".four .more");
+	var ywcl_more=document.getElementsByClassName('mxl_ywcl_more');
+	var four=document.getElementsByClassName('four')[0];
+	for(var i=0;i<mxl_ywcl.length;i++){
+		mxl_ywcl[i].index=i;
+		mxl_ywcl[i].onclick=function(){
+			var xxk=ywcl_more[this.index].querySelectorAll(".proshow_box>div");
+			for(var j=0;j<xxk.length;j++){
+				xxk[j].style.display='none'
+			}
+			
+			xxk[0].style.display='block'
+			four.style.display='none';
+			ywcl_more[this.index].style.display='block';
+		}
+	}
+	
+	//five
+	var mxl_jgbs=document.querySelectorAll(".five .more");
+	var jgbs_more=document.getElementsByClassName('mxl_jgbs_more');
+	var five=document.getElementsByClassName('five')[0];
+	for(var i=0;i<mxl_jgbs.length;i++){
+		mxl_jgbs[i].index=i;
+		mxl_jgbs[i].onclick=function(){
+			var xxk=jgbs_more[this.index].querySelectorAll(".proshow_box>div");
+			for(var j=0;j<xxk.length;j++){
+				xxk[j].style.display='none'
+			}
+			xxk[0].style.display='block'
+			five.style.display='none';
+			jgbs_more[this.index].style.display='block';
+		}
+	}
+	
+	//six
+	var mxl_fxfx=document.querySelectorAll(".six .more");
+	var fxfx_more=document.getElementsByClassName('mxl_fxfx_more');
+	var six=document.getElementsByClassName('six')[0];
+	for(var i=0;i<mxl_fxfx.length;i++){
+		mxl_fxfx[i].index=i;
+		mxl_fxfx[i].onclick=function(){
+			var xxk=fxfx_more[this.index].querySelectorAll(".proshow_box>div");
+			for(var j=0;j<xxk.length;j++){
+				xxk[j].style.display='none'
+			}
+			xxk[0].style.display='block'
+			six.style.display='none';
+			fxfx_more[this.index].style.display='block';
+		}
+	}
+	
+	//seven
+	var mxl_ypt=document.querySelectorAll(".seven .more");
+	var ypt_more=document.getElementsByClassName('mxl_ypt_more');
+	var seven=document.getElementsByClassName('seven')[0];
+	for(var i=0;i<mxl_ypt.length;i++){
+		mxl_ypt[i].index=i;
+		mxl_ypt[i].onclick=function(){
+			var xxk=ypt_more[this.index].querySelectorAll(".proshow_box>div");
+			for(var j=0;j<xxk.length;j++){
+				xxk[j].style.display='none'
+			}
+			xxk[0].style.display='block'
+			seven.style.display='none';
+			ypt_more[this.index].style.display='block';
 		}
 	}
 	
