@@ -88,19 +88,15 @@ input, button, textarea, select {
 }
 
 .clear {
-    clear: both;
-    height: 0;
-/*    overflow: hidden;*/
+    *zoom:1;
 }
 
-.clearfix:after {
+.clear:after {
     clear: both;
     display: block;
-    content: "...";
-    visibility: hidden;
-    height: 0;
-    font-size: 0;
+    content: " ";
 }
+
 
 input[type="submit"], input[type="reset"], input[type="button"], button {
     -webkit-appearance: none;

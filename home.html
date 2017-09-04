@@ -5,11 +5,12 @@
 	<meta name="keywords" content="">
 	<meta name="description" content="">
 	<title>Home</title>
-<link rel="stylesheet" href="css/reset.css">
-<link rel="stylesheet" href="css/home.css">
-<link rel="stylesheet" type="text/css" href="css/publicHeader.css"/>
-<link rel="stylesheet" type="text/css" href="css/publicBottom.css"/>
-
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/home.css">
+	<link rel="stylesheet" type="text/css" href="css/publicHeader.css"/>
+	<link rel="stylesheet" type="text/css" href="css/publicBottom.css"/>
+	<script src="js/newMove.js"></script>
+	<script src="js/jquery-1.11.3.min.js"></script>
 </head>
 <body style="overflow-x:hidden;">
 <!--header start -->
@@ -35,12 +36,12 @@
 		<li>
 			<a href="solutions/solutions.html">解决方案</a>
 			<div class="mxl_jjfx-list">
-				<a href="#">IT及金融业务咨询</a>
-				<a href="#">银行解决方案</a>
-				<a href="#">互联网金融解决方案</a>
-				<a href="#">小贷解决方案</a>
-				<a href="#">供应链接解决方案</a>
-				<a href="#">大数据与征信</a>
+				<a href="solutions/IT.html">IT及金融业务咨询</a>
+				<a href="solutions/sol-bank.html">银行解决方案</a>
+				<a href="solutions/internet.html">互联网金融解决方案</a>
+				<a href="solutions/small.html">小贷解决方案</a>
+				<a href="solutions/supply.html">供应链接解决方案</a>
+				<a href="solutions/data.html">大数据与征信</a>
 			</div>
 		</li>
 		<li>
@@ -69,21 +70,21 @@
 			<a href="news/news.html">新闻</a>
 		</li>
 		<li>
-			<a href="#">关于安硕</a>
+			<a href="about/company.html">关于安硕</a>
 			<div class="mxl_gyas-list">
-				<a href="#">公司简介</a>
-				<a href="#">企业文化</a>
-				<a href="#">荣誉资质</a>
-				<a href="#">联系我们</a>
+				<a href="about/company.html">公司简介</a>
+				<a href="about/culture.html">企业文化</a>
+				<a href="about/honor.html">荣誉资质</a>
+				<a href="invest/contact.html">联系我们</a>
 			</div>
 		</li>
 		<li>
-			<a href="#">投资者关系</a>
+			<a href="invest/invest.html">投资者关系</a>
 			<div class="mxl_tzgx-list">
-				<a href="#">公司治理</a>
-				<a href="#">临时公告</a>
-				<a href="#">定期报告</a>
-				<a href="#">联系我们</a>	
+				<a href="invest/invest.html">公司治理</a>
+				<a href="invest/interim.html">临时公告</a>
+				<a href="invest/report.html">定期报告</a>
+				<a href="invest/contact.html">联系我们</a>
 			</div>
 		</li>
 	</ul>
@@ -94,60 +95,177 @@
 <!--banner start -->
 <div class="w-banner">
 	<!--banner-con start -->
-		<div class="w-banner-top">
-			<div class="w-banner-con">
-			<div class="w-banner-A"></div>
-			<div class="w-banner-B"></div>
-			<div class="w-banner-C"></div>
-			<div class="w-banner-D"></div>
-			<div class="w-banner-E"></div>
+	<div class="w-wrap">
+		<i class="l">&lt</i><i class="r">&gt</i>
+	<div class="w-banner-top"  >
+		<div class="w-banner-con">
+			<div class="w-banner-A">
+				<img src="./images/banner1.jpg" alt="" class="banner-A-img1">
+				<img src="./images/banner1.png" alt="" class="banner-A-img2">
+			</div>
+			<div class="w-banner-B">
+				<img src="./images/banner2.jpg" alt="" class="banner-A-img1">
+				<img src="./images/banner2.png" alt="" class="banner-A-img2">
+			</div>
+			<div class="w-banner-C">
+				<img src="./images/banner3.jpg" alt="" class="banner-A-img1">
+				<img src="./images/banner3.png" alt="" class="banner-A-img2">
+			</div>
+			<div class="w-banner-D">
+				<img src="./images/banner4.jpg" alt="" class="banner-A-img1">
+				<img src="./images/banner4.png" alt="" class="banner-A-img2">
+			</div>
+			<div class="w-banner-E">
+				<img src="./images/banner5.jpg" alt="" class="banner-A-img1">
+				<img src="./images/banner5.png" alt="" class="banner-A-img2">
+			</div>
+			<div class="w-banner-A">
+				<img src="./images/banner1.jpg" alt="" class="banner-A-img1">
+				<img src="./images/banner1.png" alt="" class="banner-A-img2">
 			</div>
 		</div>
+	</div>
+	</div>
 	<!--lunbo end-->
-	<!--point start-->
-<div class="w-point"></div>
-	<!--point end-->
 	<!--solution start-->
-        <div class="w-solution clear">
-			<div class="w-solution-con">
+	<div class="w-solution clear">
+		<div class="w-solution-con clear">
+			<!--point start-->
+			<div class="w-point left">
+				<ul class="w-point-ul clear">
+					<li class="left select"></li>
+					<li class="left"></li>
+					<li class="left"></li>
+					<li class="left"></li>
+					<li class="left"></li>
+				</ul>
+			</div>
+			<!--point end-->
 			<div class="w-solution-l left">
-			<ul class="w-solution-l-ul">
-				<li>
-					<a href="#" class="a1"></a>
-					<span>IT及金融业务咨询</span>
-				</li>
-				<li>
-					<a href="#" class="a2"></a>
-					<span>银行</span>
-				</li>
-				<li>
-					<a href="#" class="a3"></a>
-					<span>证券</span>
-				</li>
-				<li>
-					<a href="#" class="a4"></a>
-					<span>信托</span>
-				</li>
-				<li>
-					<a href="#" class="a5"></a>
-					<span>保险</span>
-				</li>
-				<li>
-					<a href="#" class="a6"></a>
-					<span>创新金融</span>
-				</li>
-			</ul>
+				<ul class="w-solution-l-ul">
+					<li>
+						<a href="solutions/IT.html" class="a1"></a>
+						<span>IT及金融业务咨询</span>
+					</li>
+					<li>
+						<a href="solutions/sol-bank.html" class="a2"></a>
+						<span>银行</span>
+					</li>
+					<li>
+						<a href="solutions/small.html" class="a3"></a>
+						<span>证券</span>
+					</li>
+					<li>
+						<a href="solutions/p2p.html" class="a4"></a>
+						<span>信托</span>
+					</li>
+					<li>
+						<a href="solutions/supply.html" class="a5"></a>
+						<span>保险</span>
+					</li>
+					<li>
+						<a href="solutions/data.html" class="a6"></a>
+						<span>创新金融</span>
+					</li>
+				</ul>
 			</div>
 			<div class="w-solution-r right">
 				<span>安硕解决方案</span>
 				<i>AMARSOFT SOLUTION</i>
 				<a href="solutions/solutions.html">查看更多>></a>
 			</div>
-			</div>
 		</div>
+	</div>
 	<!--solution end-->
 </div>
-	<!--banner-con end-->
+<!--<script>-->
+	<!--var inner = document.getElementsByClassName("w-banner-con")[0];-->
+	<!--var outer = document.getElementsByClassName("w-banner")[0];-->
+	<!--var oLeft = outer.getElementsByClassName("l")[0];-->
+	<!--var oRight = outer.getElementsByClassName("r")[0];-->
+	<!--var w = inner.children[0].offsetWidth;-->
+	<!--var lis = document.getElementsByClassName("w-point-ul")[0].children;-->
+
+	<!--var t = null,iNow = 0-->
+	<!--clearInterval(t)-->
+	<!--move(inner.children[iNow].children[1],{right:0})-->
+	<!--t = setInterval(function(){-->
+		<!--oRight.onclick()-->
+	<!--},3000);-->
+	<!--oLeft.onclick = function(){-->
+		<!--iNow&#45;&#45;;-->
+		<!--if(iNow<0){-->
+			<!--inner.style.left = -(inner.children.length-1)*w+"px";-->
+			<!--iNow = inner.children.length-2-->
+		<!--}-->
+		<!--for(var i = 0;i<lis.length;i++){-->
+			<!--lis[i].className = 'left'-->
+		<!--}-->
+		<!--if(iNow == 0||iNow > 4){-->
+			<!--lis[0].className ="left select"-->
+		<!--}else{-->
+			<!--lis[iNow].className ="left select"-->
+		<!--}-->
+
+		<!---->
+		<!--move(inner,{left:-iNow*w},{time:50,type:Tween.Cubic.easeIn,fn:function(){-->
+				<!--console.log(1)-->
+				<!--for(var i = 0;i<inner.children.length;i++){-->
+					<!--inner.children[i].children[1].style.right = -800+'px'-->
+				<!--}-->
+				<!--move(inner.children[iNow].children[1],{right:0})-->
+			<!--}});-->
+	<!--}-->
+	<!--oRight.onclick = function(){-->
+		<!--iNow++-->
+		<!--if(iNow >5){-->
+			<!--inner.style.left = 0-->
+			<!--iNow =1-->
+		<!--}-->
+		<!--for(var i = 0;i<lis.length;i++){-->
+			<!--lis[i].className = 'left'-->
+		<!--}-->
+		<!--if(iNow == 0||iNow > 4){-->
+			<!--lis[0].className ="left select"-->
+		<!--}else{-->
+			<!--lis[iNow].className ="left select"-->
+		<!--}-->
+
+		<!--move(inner,{left:-iNow*w},{time:50,type:Tween.Cubic.easeIn,fn:function(){-->
+				<!--console.log(1)-->
+				<!--for(var i = 0;i<inner.children.length;i++){-->
+					<!--inner.children[i].children[1].style.right = -800+'px'-->
+				<!--}-->
+				<!--move(inner.children[iNow].children[1],{right:0})-->
+			<!--}});-->
+	<!--}-->
+
+	<!--outer.onmouseover = function(){-->
+		<!--clearInterval(t)-->
+	<!--}-->
+	<!--outer.onmouseout = function(){-->
+		<!--t = setInterval(function(){-->
+			<!--oRight.onclick()-->
+		<!--},3000);-->
+	<!--}-->
+	<!--for (var i = 0; i < lis.length; i++) {-->
+		<!--lis[i].index = i;-->
+		<!--lis[i].onclick = function(){-->
+			<!--for(var i = 0;i<lis.length;i++){-->
+				<!--lis[i].className = 'left'-->
+			<!--}-->
+			<!--iNow = this.index;-->
+			<!--lis[iNow].className ="left select";-->
+			<!--move(inner,{left:-iNow*w},{time:50,type:Tween.Cubic.easeIn,fn:function(){-->
+				<!--for(var i = 0;i<inner.children.length;i++){-->
+					<!--inner.children[i].children[1].style.right = -800+'px'-->
+				<!--}-->
+					<!--move(inner.children[iNow].children[1],{right:0})-->
+				<!--}});-->
+		<!--}-->
+	<!--};-->
+	<!--</script>-->
+<!--banner-con end-->
 	<!--news start -->
 <div class="w-news">
 	<div class="w-news-content">
@@ -209,9 +327,6 @@
 	  </li>
 	
   </ul>
-
-
-
 		</div>
 	<div class="w-products-content-r left">
 		<span>产品中心</span>
@@ -222,29 +337,27 @@
 	</div>
 </div>
 <!--products end-->
-</div>
 <!--banner end -->
-
 <div class="mxl_foot">
 	<div class="mxl_footcon">
-		<a href="#">解决方案</a>
-		<a href="#">产品</a>
+		<a href="solutions/solutions.html">解决方案</a>
+		<a href="products/products.html">产品</a>
 		<a href="#">技术优势</a>
 		<a href="#">案例</a>
-		<a href="#">新闻</a>
-		<a href="#">关于安硕</a>
-		<a href="#">投资者关系</a>
-		<a href="#">友情链接</a>
+		<a href="news/news.html">新闻</a>
+		<a href="about/company.html">关于安硕</a>
+		<a href="invest/invest.html">投资者关系</a>
+		<a href="about/link.html">友情链接</a>
 	</div>
 </div>
 <div class="mxl_copyright">
 	<div class="mxl_copycon">
 		<p>Copyright ©2000-2016 Amarsoft all rights reserved. 上海安硕信息技术股份有限公司</p>
 		<p>
-			<a href="#">
+			<a href="javascript:;">
 				<img src="images/mxl_icp.png"/> 工信部备-沪ICP备07029072号
 			</a>
-			<a href="#">
+			<a href="javascript:;">
 				<img src="images/mxl_ghs.png"/> 沪网安备-31011002000633号
 			</a>
 		</p>
@@ -253,4 +366,7 @@
 
 </body>
 <script src="js/publicHeader.js"></script>
+<script src="js/banner.js"></script>
+<script src="js/wh.js"></script>
+<script src="js/select.js"></script>
 </html>
