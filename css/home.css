@@ -19,7 +19,6 @@ header{
     width: 100%;
     height: 650px;
     min-width: 1600px;
-
 }
 .w-wrap{
     width: 1600px;
@@ -101,7 +100,7 @@ min-width: 1600px;
 }
 .w-point-ul{
     height: 10px;
-    padding-top: 30px;
+    padding-top: 15px;
     margin-left: 45%;
 }
 .w-point ul li{
@@ -119,25 +118,32 @@ min-width: 1600px;
 .w-point ul li.select{
     background: #003687;
 }
-
-.w-solution {
-    position: absolute;
-    bottom: 0;
-    left: 0;
+.w-solution-w{
+    position: relative;
     width: 100%;
-    height: 210px;
+}
+.w-solution {
+    position:absolute;
+    top: -221px;
+    /*bottom:0px;*/
+    left: 0;
+    width:100%;
+    height: 221px;
     background: url(../images/home_solutionbj.png) repeat;
     z-index: 99;
 }
+
 .w-solution-con{
     width: 1260px;
-    margin:0 auto;
+   margin:0 auto;
+    height: 221px;
 }
  .w-solution-l{
      height: 118px;
      background: #fff;
-     margin-top: 33px;
-    padding-top: 30px;
+     margin-top: 13px;
+     margin-bottom: 13px;
+     padding-top: 30px;
 }
 .w-solution-l-ul> li {
     float: left;
@@ -210,7 +216,7 @@ overflow: hidden;
     color:#EA4C25;
 }
 .w-solution-r{
-    margin-top: 33px;
+    margin-top:13px;
     padding-top: 35px;
     width: 260px;
     background: #003687;
